@@ -16,5 +16,6 @@ function contar() {// let para var tem diferença de scopo, fora desse bloco nã
         for (let c = i; c <= f; c += p) {//for significa,enquanto o contator for menor ou igual ao fim, ele vai receber ele mesmo + o passo.
             res.innerHTML += `${c} \u{1F449}`//comando para converter emoji para js o original seria U+1F449.
         }
+        res.innerHTML += `\u{1F3C1}`//emoji só funciona entre crase ``
     }
 }

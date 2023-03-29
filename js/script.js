@@ -7,7 +7,7 @@ function contar() {// let para var tem diferença de scopo, fora desse bloco nã
     if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
         alert('[ERRO] Faltam dados!')
     } else {
-        res.innerHTML = 'Contando: '
+        res.innerHTML = 'Contando: <br>'
         //esse comando transforma ini em um number, fazendo a conversão.
         let i = Number(inicio.value)
         let f = Number(fim.value)
